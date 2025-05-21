@@ -32,5 +32,5 @@ A modern web application that helps you discover new music based on your favorit
 
 - React
 - Last.fm API
-- CSS3 with modern features (Grid, Flexbox, CSS Variables)
+- css
 - Custom hooks for state management
