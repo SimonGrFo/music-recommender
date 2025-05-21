@@ -6,7 +6,7 @@ import useMusic from './hooks/useMusic';
 
 const Header = () => (
   <header>
-    <h1>Reccomend me a song</h1>
+    <h1>Recommend me a song</h1>
     <p className="tagline">Discover songs similar to your favorites!</p>
   </header>
 );
