@@ -12,8 +12,6 @@ A modern web application that helps you discover new music based on your favorit
   - Artist's top tracks (up to 60% match)
 - 📊 View detailed match percentages and sources
 - 📈 Track statistics including play counts and listener numbers
-- 🎨 Beautiful dark theme with yellow accents
-- 🔄 Smart filtering options to exclude same-artist tracks
 - 📱 Responsive design that works on all devices
 
 ## Getting Started
