@@ -1,6 +1,7 @@
 # Music Recommender
 
 A modern web application that helps you discover new music based on your favorite songs. Built with React and powered by the Last.fm API.
+
 ![image](https://github.com/user-attachments/assets/a4f9f460-e9c8-41e9-aeef-bdc34fb2b671)
 
 ## Features
