@@ -17,6 +17,8 @@ A modern web application that helps you discover new music based on your favorit
 
 ## Getting Started
 
+### Standard Setup
+
 1. Clone this repository
 2. Install dependencies:
    ```bash
@@ -29,9 +31,27 @@ A modern web application that helps you discover new music based on your favorit
    npm start
    ```
 
+### Docker Setup
+
+1. Clone this repository
+2. Create a Last.fm API key at https://www.last.fm/api#getting-started
+3. Rename `src/config/api.example.js` to `api.js` and add your API key
+4. Build and run with Docker Compose:
+   ```bash
+   docker-compose up --build
+   ```
+   The application will be available at http://localhost:3000
+
+Alternatively, you can build and run using Docker directly:
+```bash
+docker build -t music-recommender .
+docker run -p 3000:80 music-recommender
+```
+
 ## Technologies
 
 - React
 - Last.fm API
 - css
 - Custom hooks for state management
+- Docker for containerization
