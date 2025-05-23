@@ -6,14 +6,10 @@ A modern web application that helps you discover new music based on your favorit
 
 ## Features
 
-- 🎵 Search for any song by title or "artist - song" format
-- 🎯 Get personalized music recommendations using multiple sources:
-  - Similar tracks from Last.fm (up to 100% match)
-  - Tag-based recommendations (up to 80% match)
-  - Artist's top tracks (up to 60% match)
-- 📊 View detailed match percentages and sources
-- 📈 Track statistics including play counts and listener numbers
-- 📱 Responsive design that works on all devices
+- Search for any song by title
+- Get personalized music recommendations using multiple sources:
+- Show statistics including play counts and listener numbers
+- Responsive design that works on all devices and adheres to web accessibility
 
 ## Getting Started
 
@@ -30,24 +26,7 @@ A modern web application that helps you discover new music based on your favorit
    ```bash
    npm start
    ```
-
-### Docker Setup
-
-1. Clone this repository
-2. Create a Last.fm API key at https://www.last.fm/api#getting-started
-3. Rename `src/config/api.example.js` to `api.js` and add your API key
-4. Build and run with Docker Compose:
-   ```bash
-   docker-compose up --build
-   ```
-   The application will be available at http://localhost:3000
-
-Alternatively, you can build and run using Docker directly:
-```bash
-docker build -t music-recommender .
-docker run -p 3000:80 music-recommender
-```
-
+   
 ## Technologies
 
 - React
